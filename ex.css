@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Young+Serif&display=swap');
+
+.div1 {
+
+    width: 95%;
+    height: 90vh;
+    background-color: #e5cb7a;
+    position: absolute;
+
+
+
+
+
+}
+
+.div-main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #F5DEB3, #228B22, #450101, #F5DEB3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.div1 img {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    position: absolute;
+    margin: 15px 30px;
+
+}
+
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 60%;
+}
+
+nav ul li {
+
+    margin: 15px 25px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+    font-weight: bold;
+    font-family: 'Young Serif', serif;
+
+}
+
+nav ul li:hover {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+
+}
+
+/* nav bar ends */
+
+
+/* home page text */
+
+.bur-con {
+
+    display: flex;
+
+}
+
+
+.div1 .bur-con h1 {
+    font-family: 'Young Serif', serif;
+    color: rgb(110, 18, 18);
+    font-size: 70px;
+
+}
+
+.bur-con h1 span {
+    color: rgb(28, 78, 43);
+    margin-left: 255px;
+
+}
+
+.bur-con .bur-txt {
+    position: absolute;
+    top: 40%;
+    margin-left: 200px;
+
+
+}
+
+.bur-con p {
+    width: 600px;
+    margin-top: 25px;
+    font-family: 'Young Serif', serif;
+}
+
+/* home page burger image */
+
+
+.bur-con .bur-img img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 100px;
+    left: 65%;
+
+
+}
+
+
+/* home page order button */
+
+.bur-txt .order a {
+
+    text-decoration: none;
+    background-color: #f1d06a;
+    border: 1px solid rgb(30, 116, 30);
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #450101;
+    font-weight: bold;
+    font-family: 'Young Serif', serif;
+
+}
+
+/* button */
+.bur-txt .order {
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+
+/* button effect */
+.order a:hover {
+    background-color: #228B22;
+}
+
+
+/* items section ========================================================================*/
+.div-main2 {
+    width: 100%;
+    height: 800px;
+    background-color: #F5DEB3;
+    display: flex;
+    position: relative;
+}
+
+/* item section head */
+.div2 h1 {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+/* item div container */
+.item-container {
+
+    width: 100%;
+    height: 700px;
+    background-color: #F5DEB3;
+    position: absolute;
+
+
+
+}
+
+/* item div */
+.row1 {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+.row1 .item {
+    width: 400px;
+    height: 250px;
+    background-color: #f1d06a;
+    margin: 10px 30px;
+    box-shadow: 1px 2px 3px rgba(5, 5, 5, .5);
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+.row2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* each items */
+.item-container .item {
+    width: 400px;
+    height: 250px;
+    background-color: #f1d06a;
+    margin: 10px 30px;
+    box-shadow: 1px 2px 3px rgba(5, 5, 5, .5);
+    border-radius: 15px;
+    transition: transform .2s;
+
+}
+
+/* item image */
+.item img {
+
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/* hover effect */
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+/* item name */
+.item h4 {
+    color: #450101;
+    float: right;
+    margin: 10px 25px;
+    font-size: 25px;
+}
+
+/* item description */
+.item p {
+    font-size: small;
+    margin-top: 10px;
+
+
+}
+
+/* item price */
+.item h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+/* buy butttom */
+.item a {
+
+    background-color: #F5DEB3;
+    padding: 5px 30px;
+    text-decoration: none;
+    margin-left: 250px;
+    border-radius: 30px;
+    color: #000;
+}
+
+/* hover effect */
+.item a:hover {
+
+    background-color: white;
+}
+
+/* about div */
+
+
+.main-div3 {
+    display: flex;
+
+
+
+}
+
+.about-con {
+    width: 50%;
+    height: 700px;
+    background-image: linear-gradient(190deg, #d3d6d7, #fbfcf7 80%);
+
+
+
+}
+
+.about-img {
+    width: 50%;
+    height: 700px;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.about-con h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: #450101;
+
+}
+
+.about-con p {
+    line-height: 30px;
+    margin-top: 60px;
+    font-family: 'Young Serif', serif;
+    margin: 60px 20px;
+
+
+}
+
+
+
+/* infermations */
+.about-con .info-box {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.info-box .info {
+    margin: 0 25px;
+    font-size: 20px;
+
+}
+
+.info-box .info i {
+    color: yellow;
+}
+
+#contact{
+
+
+
+    width: 100%;
+    height: 400px;
+    background-image: url(./IMAGES/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+#contact h1{
+    text-align: center;
+    color: white;
+    margin-top:70px ;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+/* contact icons */
+
+
+.icons-div{
+
+    margin: 70px  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-div .icons{
+    width: 100px;
+    height: 50px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    
+ 
+
+    
+}
+.icons-div .icons i{
+
+    font-size: 70px;
+    transition: transform .4s;
+}
+
+.fa-whatsapp{
+
+    color: rgb(33, 128, 33);
+}
+.fa-instagram{
+
+    color: #953553;
+}
+.fa-facebook{
+    color:rgb(57, 57, 251);
+}
+.fa-linkedin{
+
+    color: rgb(76, 76, 231);
+}
+.fa-github{
+
+    color: black;
+}
+
+.icons i:hover{
+   
+        transform: scale(1.1);
+
+}
+.icons-div .icons a{
+    text-decoration: none;
+    
+}
+/* footer */
+footer{
+
+    color: white;
+}
+
+
+@media(max-width: 600px){
+ 
+    .div-main {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        
+       
+    }
+    .div1 {
+        width: 400px;
+        height: 500px;
+        position: absolute; 
+        margin:10px 10px ;
+        
+    
+    }
+    
+ 
+    .div1 img {
+        width: 29px;
+        height: 29px;
+    }
+    nav ul{
+      left: 39%;
+    }
+    nav ul li {
+
+        margin: 5px 5px;
+        padding: 0px 5px;
+    }
+    
+    nav ul li a {
+        font-size: 10px;  
+    }
+    nav ul li:hover {
+        border-radius: 15px;
+    
+    }
+    .div1 .bur-con h1 {
+        font-size: 17px;
+    
+    }
+    
+    .bur-con h1 span {
+        margin-left: 90px;
+    
+    }
+    .bur-con .bur-txt {
+        top: 45%;
+        margin-left: 20px;
+    }
+    .bur-con p {
+        width: 250px;
+        margin-top: 10px;
+        font-size: 7px;
+    }
+    .bur-con .bur-img img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 45%;
+        left: 50%;
+    }
+    .bur-txt .order {
+        margin-top: 15px;
+        margin-left: 150px;
+    }
+    .bur-txt .order a {
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 5px;
+    }
+      /* item */
+
+      .div-main2 {
+        width: 100%;
+        height: 650px;
+        position: relative;
+
+    }
+    
+    /* item section head */
+    .div2 h1 {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 15px;
+       
+    }
+    
+    /* item div container */
+    .item-container {
+    
+        width: 100%;
+        height: 550px;
+        position: absolute;
+    }
+    
+    /* item div */
+    .row1 {
+        
+        margin-top: 8px;
+    }
+    
+    .row1 .item {
+        width: 170px;
+        height: 250px;
+        margin: 10px 10px;
+        box-shadow: 1px 2px 3px rgba(5, 5, 5, .5);
+        border-radius: 7px;
+    }
+    
+    .row2 {
+        
+        margin-top: 8px;
+    }
+
+    .row2 .item{
+
+        width: 170px;
+        height: 250px;
+        margin: 10px 10px;
+        box-shadow: 1px 2px 3px rgba(5, 5, 5, .5);
+        border-radius: 7px;
+    }
+    /* item image */
+.item img {
+
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+/* item name */
+.item h4 {
+    margin: 5px 20px;
+    font-size: 10px;
+}
+
+/* item description */
+.item p {
+    font-size: 10px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+/* item price */
+.item h3 {
+    color: #000;
+    font-size: 8px;
+    margin-top: 100px;
+}
+
+/* buy butttom */
+.item a {
+    padding: 5px 15px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-size: 8px;  
+}
+/* about div */
+
+
+.main-div3 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.about-con {
+    width: 50%;
+    height: 600px;
+}
+.about-img {
+    width: 50%;
+    height: 600px;
+
+}
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-con h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.about-con p {
+    width: 95%;
+    line-height: 20px;
+    margin-top: 20px;
+}
+/* infermations */
+.about-con .info-box {
+   margin-top: 5px;
+    font-size: 5px;
+    display: block;
+   margin-top: -20px;
+}
+
+.info-box .info {
+    
+    font-size: 10px;
+}
+
+.info-box .info i {
+    font-size: 10px;
+}
+#contact{
+    height: 200px;
+    background-size: cover;
+}
+#contact h1{
+    margin-top:40px ;
+    font-size: 15px;
+}
+/* contact icons */
+
+
+.icons-div{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 180px;
+   
+}
+.icons-div .icons{
+    width: 50px;
+    height: 25px;
+    
+}
+.icons-div .icons i{
+    font-size: 30px;
+}
+footer{
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+
+
+
+    
+  
+
+
+}
